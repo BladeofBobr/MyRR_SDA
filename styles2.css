@@ -1,14 +1,23 @@
 body {
-    background: #f0f4f8;
+    background: #d3d3d3; /* Сірий фон */
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 20px;
     text-align: center;
 }
 
+.student-info {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
 h1 {
     color: #2c3e50;
     margin-bottom: 30px;
+    border-bottom: 2px solid #2c3e50; /* Підкреслення */
+    display: inline-block;
+    padding-bottom: 5px;
 }
 
 .gallery {
